@@ -5,9 +5,27 @@ import "./index.css";
 import Hello from "./components/Hello";
 // import reportWebVitals from "./reportWebVitals";
 
+//勝手に追加
+import Name from "./components/Name";
+import Message from "./components/Message";
+import ContainerSample from "./components/ContainerSample";
+import Page from "./components/ContextSample";
+import { Parent } from "./components/Parent";
+import UseMemoSample from "./components/UseMemoSample";
+
 ReactDOM.render(
   <React.StrictMode>
     <Hello />
+
+    {/* 勝手に追加start */}
+    <Name />
+    <Message />
+    <ContainerSample />
+    <Page />
+    <Parent />
+    <UseMemoSample />
+    <Clock />
+    {/* 勝手に追加end */}
   </React.StrictMode>,
   document.getElementById("root")
 );
