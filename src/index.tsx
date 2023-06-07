@@ -24,7 +24,6 @@ ReactDOM.render(
     <Page />
     <Parent />
     <UseMemoSample />
-    <Clock />
     {/* 勝手に追加end */}
   </React.StrictMode>,
   document.getElementById("root")
